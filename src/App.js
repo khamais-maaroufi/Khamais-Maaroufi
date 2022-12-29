@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 
 const App = () => {
+
+  
   return (
     <main className="App">
       <section className="navigation-side-bar-styles" id="navigation-side-bar">
@@ -92,6 +94,21 @@ const App = () => {
         </section>
         <section id="EDUCATION" className="content-sections">
           <h2>EDUCATION</h2>
+          <div className="container-insub-section">
+            <img
+              className="university-logo"
+              src="http://www.utm.rnu.tn/utm/images/utm-header.png"
+              alt="my-university-logo"
+            />
+            <div>
+              <h3>Bachelor Degree of Computer science</h3>
+              <h4>
+                Tunis El Manar University, The Higher Institute of Computer
+                Science{" "}
+              </h4>
+              <span>Sep 2019 - Jun 2022</span>
+            </div>
+          </div>
         </section>
         <section id="SKILLS" className="content-sections">
           <h2>SKILLS</h2>

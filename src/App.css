@@ -85,12 +85,13 @@ background-size: cover;
 background-repeat: no-repeat;
 -webkit-animation: swing-in-left-fwd 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
 	        animation: swing-in-left-fwd 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+         
 }
 .Portfolio-content-styles {
   width: 80vw;
   overflow: auto;
-  max-height: 100vh;
   scroll-behavior: smooth;
+  max-height: 100vh;
 }
 nav {
   width: 100%;
@@ -141,10 +142,20 @@ p {
 .content-sections {
   padding: 5vw;
   border-top: 2px solid rgba(207, 180, 59, 0.267);
-  
 }
-
-
+.container-insub-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+h4 {
+  color: #000000a2;
+}
+.university-logo {
+  width: 10vw;
+  margin: 0 2vw 0 0;
+}
 
 /*animation */
 /* The typing effect */
