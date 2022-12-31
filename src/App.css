@@ -4,6 +4,9 @@
   display: flex;
   flex-direction: row;
 }
+h3, h4, span {
+  font-size: 1.5vw;
+}
 figure {
   width: 60%;
   aspect-ratio: 1/1;
@@ -89,6 +92,7 @@ nav ul {
 a {
   text-decoration: none;
   color: rgb(207, 181, 59);
+  font-size: 1.8vw;
 }
 a > img {
   width: 3vw;
@@ -177,8 +181,9 @@ h2 {
   margin-bottom: 4vw;
 }
 p {
-  line-height: 32px;
-  color: #000000a2;
+  line-height: 2vw;
+  color: #000000af;
+  font-size: 1.5vw;
 }
 .content-sections {
   padding: 5vw;
@@ -198,7 +203,7 @@ h4 {
   margin: 0 2vw 0 0;
 }
 #rwd-certif {
-  background-image: url("https://media.licdn.com/dms/image/C4D22AQE6748j5iQKpQ/feedshare-shrink_800/0/1671717225796?e=1675296000&v=beta&t=GnqSwu2rzyKDECITY8pelzPY5DdSp-vyqStGD0NpNzg");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/RWD.PNG?alt=media&token=237648c0-a997-4d26-aaf0-dea5be29ca9b");
 }
 #rwd-certif:hover {
   background-image: linear-gradient(
@@ -209,10 +214,10 @@ h4 {
       #afb3b575,
       #f1f8f756
     ),
-    url("https://media.licdn.com/dms/image/C4D22AQE6748j5iQKpQ/feedshare-shrink_800/0/1671717225796?e=1675296000&v=beta&t=GnqSwu2rzyKDECITY8pelzPY5DdSp-vyqStGD0NpNzg");
+    url("https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/RWD.PNG?alt=media&token=237648c0-a997-4d26-aaf0-dea5be29ca9b");
 }
 #js-certif {
-  background-image: url("https://media.licdn.com/dms/image/C4D22AQGvPa7Wdne7Cg/feedshare-shrink_800/0/1671047094339?e=1675296000&v=beta&t=qNDQ5CFLuzNq-sd2pcHGnhJ1S1VqsOAxiniRffJhmiQ");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/js.jpg?alt=media&token=6c52e510-c79a-48ff-922b-f9dfe0aea742");
 }
 #js-certif:hover {
   background-image: linear-gradient(
@@ -223,7 +228,7 @@ h4 {
       #afb3b575,
       #f1f8f756
     ),
-    url("https://media.licdn.com/dms/image/C4D22AQGvPa7Wdne7Cg/feedshare-shrink_800/0/1671047094339?e=1675296000&v=beta&t=qNDQ5CFLuzNq-sd2pcHGnhJ1S1VqsOAxiniRffJhmiQ");
+    url("https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/js.jpg?alt=media&token=6c52e510-c79a-48ff-922b-f9dfe0aea742");
 }
 .certificate {
   width: 40%;
@@ -244,7 +249,7 @@ h4 {
   align-items: center;
   overflow: hidden;
   -webkit-animation: kenburns-top 5s ease-out both;
-	        animation: kenburns-top 5s ease-out both;
+  animation: kenburns-top 5s ease-out both;
 }
 .certificate:hover .redirection-button {
   display: flex;
@@ -283,14 +288,111 @@ h4 {
 .info-contact {
   margin: 2vw 0;
   display: block;
-
 }
-address > a {
+address  a {
   border-left: 2px solid grey;
   padding: 1vw;
+  font-size: 1.5vw;
   font-weight: bold;
-  background-image: linear-gradient(to right, #0000001e, #94999825, #b2b8b71e, #ffffff6e, #ffffff);
+  background-image: linear-gradient(
+    to right,
+    #0000001e,
+    #94999825,
+    #b2b8b71e,
+    #ffffff6e,
+    #ffffff
+  );
 }
+
+.address {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+ 
+}
+
+.add-info {
+  display: inline-block;
+  width: 250px;
+  margin: 2vw;
+}
+
+/*mobile LAYOUT */
+
+@media(max-width: 1066px) {
+  .App {
+   
+    flex-direction: column;
+  }
+  .fa-did-not-work > img {
+    width: 2.1vw;
+    bottom: 0.2vw;
+}
+#SKILLS ul > li > i {
+  margin-right: 3vw;
+  position: relative;
+}
+#SKILLS ul > li {
+  margin-bottom: 2vw;
+}
+  p {
+    line-height: 3vw;
+    color: #000000c4;
+    font-size: 1.5vw;
+  }
+  figure {
+    display: none;
+  }
+  .navigation-side-bar-styles {
+    width: 100vw;
+    height: fit-content;
+    padding: 2vw;
+    background-image: radial-gradient(circle, #000000, #1b1b1b, #2e2e2e, #444444, #5a5a5a);
+  }
+  nav ul {
+    height: fit-content;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  nav {
+    height: fit-content;
+  }
+  .Portfolio-content-styles {
+    width: 100vw;
+    height: fit-content;
+    max-height: none;
+  }
+  .social-media-links {
+    width: 30%;
+  }
+  .icon-for-media > img {
+    width: 30px;
+  }
+  .tech-list {
+flex-wrap: wrap;
+}
+  .tech-list > img {
+    margin: 1vw;
+    min-width: 30px;
+    width: 10%;
+    aspect-ratio: 1/1;
+}
+#list-of-services > li {
+  font-size: 1.2vw;
+}
+.typewriter {
+  
+  padding: 10% 30% 0 10%;
+}
+}
+/* @media(max-width: 550px) {
+  .typewriter {
+  
+    padding: 10% 30% 0 10%;
+}
+} */
 /*animation */
 
 /* The typing effect */
@@ -407,28 +509,28 @@ address > a {
 @-webkit-keyframes kenburns-top {
   0% {
     -webkit-transform: scale(1) translateY(0);
-            transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
     -webkit-transform-origin: 50% 16%;
-            transform-origin: 50% 16%;
+    transform-origin: 50% 16%;
   }
   100% {
     -webkit-transform: scale(1.25) translateY(-15px);
-            transform: scale(1.25) translateY(-15px);
+    transform: scale(1.25) translateY(-15px);
     -webkit-transform-origin: top;
-            transform-origin: top;
+    transform-origin: top;
   }
 }
 @keyframes kenburns-top {
   0% {
     -webkit-transform: scale(1) translateY(0);
-            transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
     -webkit-transform-origin: 50% 16%;
-            transform-origin: 50% 16%;
+    transform-origin: 50% 16%;
   }
   100% {
     -webkit-transform: scale(1.25) translateY(-15px);
-            transform: scale(1.25) translateY(-15px);
+    transform: scale(1.25) translateY(-15px);
     -webkit-transform-origin: top;
-            transform-origin: top;
+    transform-origin: top;
   }
 }
