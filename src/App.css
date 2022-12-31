@@ -280,7 +280,17 @@ h4 {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+.info-contact {
+  margin: 2vw 0;
+  display: block;
 
+}
+address > a {
+  border-left: 2px solid grey;
+  padding: 1vw;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #0000001e, #94999825, #b2b8b71e, #ffffff6e, #ffffff);
+}
 /*animation */
 
 /* The typing effect */

@@ -271,6 +271,11 @@ const App = () => {
         </section>
         <section id="CONTACT" className="content-sections">
           <h2>CONTACT</h2>
+          <address>
+  <span className="info-contact">Email:</span> <a href="mailto:info@example.com">khamais.sil@gmail.com</a><br />
+  <sapn className="info-contact">Phone:</sapn> <a href="tel:1234567890">+216-25883997</a><br/>
+  <span className="info-contact">Location:</span> <a href="https://maps.google.com/?q=123+Main+St">Tunis, Tunisia</a>
+          </address>
         </section>
       </section>
     </main>
