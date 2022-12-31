@@ -303,6 +303,9 @@ address  a {
     #ffffff
   );
 }
+#list-of-services li {
+  margin-bottom: 2vw
+}
 
 .address {
   display: flex;

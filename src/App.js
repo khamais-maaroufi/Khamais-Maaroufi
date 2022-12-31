@@ -188,7 +188,7 @@ const App = () => {
           </div>
           <div>
             <h3 style={{ marginTop: "3vw" }}>
-              <b>WORKFLOW</b>
+              <b>SERVICES</b>
             </h3>
             <ul id="list-of-services">
               <li>
@@ -198,7 +198,7 @@ const App = () => {
                     alt="valid"
                   ></img>
                 </i>
-                Mobile-First, Responsive Design
+                I can design and build custom websites for clients using my skills in HTML, CSS, and JavaScript.
               </li>
 
               <li>
@@ -208,7 +208,7 @@ const App = () => {
                     alt="valid"
                   ></img>
                 </i>
-                Cross Browser Testing & Debugging
+                I can develop custom web applications for clients using my experience with frameworks such as React.
               </li>
 
               <li>
@@ -219,7 +219,7 @@ const App = () => {
                     alt="valid"
                   ></img>
                 </i>
-                Cross Functional Teams
+                I can provide ongoing support to clients by maintaining and updating their existing websites.
               </li>
 
               <li>
@@ -229,7 +229,7 @@ const App = () => {
                     alt="valid"
                   ></img>
                 </i>
-                Agile Development & Scrum
+                I can offer training and consulting services to help clients learn more about web dev technologies and best practices.
               </li>
             </ul>
           </div>
