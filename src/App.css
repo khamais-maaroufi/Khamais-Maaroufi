@@ -14,12 +14,6 @@ figure {
   background-image: linear-gradient(
     to left bottom,
     #ffffff,
-    #fdebfb,
-    #ffd3e4,
-    #ffbeb8,
-    #ffb382,
-    #e59f68,
-    #cc8c50,
     #b27937,
     #8e5335,
     #62352e,
@@ -390,6 +384,38 @@ flex-wrap: wrap;
   padding: 10% 30% 0 10%;
 }
 }
+.topbtnk {
+  position: fixed;
+
+  right: 5px;
+  bottom: 0px;
+  /* margin-top: -5rem; */
+  /* padding: 1rem; */
+  margin-bottom: 2px;
+  bottom: 800px;
+  border: none;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  transition: 0.5s;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.7s;
+}
+.topbtnk img {
+  width: 40px;
+  height: 40px;
+}
+
+.topbtnk.active {
+  right: 3vw;
+  bottom: 3vw;
+  visibility: visible;
+  opacity: 1;
+}
+
 /* @media(max-width: 550px) {
   .typewriter {
   

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 
 const App = () => {
+  
   const handelRWD = () => {
     window.open(
       "https://www.freecodecamp.org/certification/Khamais-Maaroufi/responsive-web-design"
@@ -11,6 +12,18 @@ const App = () => {
     window.open(
       "https://www.freecodecamp.org/certification/Khamais-Maaroufi/javascript-algorithms-and-data-structures"
     );
+  };
+  
+  useEffect(() => {
+    let element = document.querySelector(".Portfolio-content-styles");
+    element.addEventListener("scroll", function () {
+      var scroll = document.querySelector(".topbtnk");
+      scroll.classList.toggle("active", element.scrollTop > 300);
+    });
+  });
+  const ToTop = () => {
+    let element = document.querySelector(".Portfolio-content-styles");
+    element.scrollTo(0, 0);
   };
   return (
     <main className="App">
@@ -277,7 +290,14 @@ const App = () => {
  <div className="add-info"><a href="https://maps.google.com/?q=123+Main+St">Tunis, Tunisia</a></div> 
           </address>
         </section>
+        <div className="topbtnk" onClick={ToTop}>
+      <img
+        src="https://cdn-icons-png.flaticon.com/128/6469/6469473.png"
+        alt="scrollTop"
+      ></img>
+    </div>
       </section>
+      
     </main>
   );
 };
