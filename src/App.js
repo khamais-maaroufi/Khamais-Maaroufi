@@ -2,6 +2,16 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 
 const App = () => {
+  const handelRWD = () => {
+    window.open(
+      "https://www.freecodecamp.org/certification/Khamais-Maaroufi/responsive-web-design"
+    );
+  };
+  const handelJS = () => {
+    window.open(
+      "https://www.freecodecamp.org/certification/Khamais-Maaroufi/javascript-algorithms-and-data-structures"
+    );
+  };
   return (
     <main className="App">
       <section className="navigation-side-bar-styles" id="navigation-side-bar">
@@ -183,14 +193,20 @@ const App = () => {
             <ul>
               <li>
                 <i className="fa-did-not-work">
-                  <img src="https://cdn-icons-png.flaticon.com/512/294/294432.png" alt="valid"></img>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/294/294432.png"
+                    alt="valid"
+                  ></img>
                 </i>
                 Mobile-First, Responsive Design
               </li>
 
               <li>
                 <i className="fa-did-not-work">
-                  <img src="https://cdn-icons-png.flaticon.com/512/294/294432.png" alt="valid"></img>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/294/294432.png"
+                    alt="valid"
+                  ></img>
                 </i>
                 Cross Browser Testing & Debugging
               </li>
@@ -198,14 +214,20 @@ const App = () => {
               <li>
                 {" "}
                 <i className="fa-did-not-work">
-                  <img src="https://cdn-icons-png.flaticon.com/512/294/294432.png" alt="valid"></img>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/294/294432.png"
+                    alt="valid"
+                  ></img>
                 </i>
                 Cross Functional Teams
               </li>
 
               <li>
                 <i className="fa-did-not-work">
-                  <img src="https://cdn-icons-png.flaticon.com/512/294/294432.png" alt="valid"></img>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/294/294432.png"
+                    alt="valid"
+                  ></img>
                 </i>
                 Agile Development & Scrum
               </li>
@@ -214,6 +236,38 @@ const App = () => {
         </section>
         <section id="CERTIFICATIONS" className="content-sections">
           <h2>CERTIFICATIONS</h2>
+          <div className="Field-for-certificate">
+            <div
+              className="certificate"
+              id="rwd-certif"
+              name="certificate-responsive-web-design"
+              onClick={handelRWD}
+            >
+              <div className="redirection-button">
+                Show credential
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/2901/2901214.png"
+                  className="icon-redirection"
+                ></img>
+              </div>
+            </div>
+            {/*break*/}
+            <div
+              className="certificate"
+              id="js-certif"
+              name="certificate-responsive-web-design"
+              onClick={handelJS}
+            >
+              <div className="redirection-button">
+                Show credential
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/2901/2901214.png"
+                  className="icon-redirection"
+                ></img>
+              </div>
+            </div>
+            {/*break*/}
+          </div>
         </section>
         <section id="CONTACT" className="content-sections">
           <h2>CONTACT</h2>
