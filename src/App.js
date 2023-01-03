@@ -13,6 +13,11 @@ const App = () => {
       "https://www.freecodecamp.org/certification/Khamais-Maaroufi/javascript-algorithms-and-data-structures"
     );
   };
+  const handelFE = () => {
+    window.open(
+      "https://www.freecodecamp.org/certification/Khamais-Maaroufi/front-end-development-libraries"
+    );
+  }
   
   useEffect(() => {
     let element = document.querySelector(".Portfolio-content-styles");
@@ -270,6 +275,22 @@ const App = () => {
               id="js-certif"
               name="certificate-responsive-web-design"
               onClick={handelJS}
+            >
+              <div className="redirection-button">
+                Show credential
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/2901/2901214.png"
+                  className="icon-redirection"
+                ></img>
+              </div>
+            </div>
+            {/*break*/}
+            {/*break*/}
+            <div
+              className="certificate"
+              id="fe-certif"
+              name="certificate-responsive-web-design"
+              onClick={handelFE}
             >
               <div className="redirection-button">
                 Show credential
