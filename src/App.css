@@ -4,7 +4,9 @@
   display: flex;
   flex-direction: row;
 }
-h3, h4, span {
+h3,
+h4,
+span {
   font-size: 1.5vw;
 }
 figure {
@@ -16,9 +18,9 @@ figure {
     #ffffff,
     #b27937,
     #8e5335,
-    #62352e,
-    #341d1f,
-    #000000
+    #62352e09,
+    #341d1fec,
+    #000000fa
   );
   display: flex;
   justify-content: center;
@@ -256,7 +258,6 @@ h4 {
   justify-content: center;
   align-items: center;
   overflow: hidden;
- 
 }
 .certificate:hover .redirection-button {
   display: flex;
@@ -296,56 +297,44 @@ h4 {
   margin: 2vw 0;
   display: block;
 }
-address  a {
-  border-left: 2px solid grey;
-  padding: 1vw;
-  font-size: 1.5vw;
-  font-weight: bold;
-  background-image: linear-gradient(
-    to right,
-    #0000001e,
-    #94999825,
-    #b2b8b71e,
-    #ffffff6e,
-    #ffffff
-  );
-}
+
 #list-of-services li {
-  margin-bottom: 2vw
+  margin-bottom: 2vw;
 }
 
-.address {
+address {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
- 
 }
-
-.add-info {
-  display: inline-block;
-  width: 250px;
-  margin: 2vw;
+address img {
+  width: 10vw;
+  aspect-ratio: 1/1;
 }
-
+address div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 /*mobile LAYOUT */
 
-@media(max-width: 1066px) {
+@media (max-width: 1066px) {
   .App {
-   
     flex-direction: column;
   }
   .fa-did-not-work > img {
     width: 2.1vw;
     bottom: 0.2vw;
-}
-#SKILLS ul > li > i {
-  margin-right: 3vw;
-  position: relative;
-}
-#SKILLS ul > li {
-  margin-bottom: 2vw;
-}
+  }
+  #SKILLS ul > li > i {
+    margin-right: 3vw;
+    position: relative;
+  }
+  #SKILLS ul > li {
+    margin-bottom: 2vw;
+  }
   p {
     line-height: 3vw;
     color: #000000c4;
@@ -358,7 +347,14 @@ address  a {
     width: 100vw;
     height: fit-content;
     padding: 2vw;
-    background-image: radial-gradient(circle, #000000, #1b1b1b, #2e2e2e, #444444, #5a5a5a);
+    background-image: radial-gradient(
+      circle,
+      #000000,
+      #1b1b1b,
+      #2e2e2e,
+      #444444,
+      #5a5a5a
+    );
   }
   nav ul {
     height: fit-content;
@@ -381,21 +377,20 @@ address  a {
     width: 30px;
   }
   .tech-list {
-flex-wrap: wrap;
-}
+    flex-wrap: wrap;
+  }
   .tech-list > img {
     margin: 1vw;
     min-width: 30px;
     width: 10%;
     aspect-ratio: 1/1;
-}
-#list-of-services > li {
-  font-size: 1.2vw;
-}
-.typewriter {
-  
-  padding: 10% 30% 0 10%;
-}
+  }
+  #list-of-services > li {
+    font-size: 1.2vw;
+  }
+  .typewriter {
+    padding: 10% 30% 0 10%;
+  }
 }
 .topbtnk {
   position: fixed;

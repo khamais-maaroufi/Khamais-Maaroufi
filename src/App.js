@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 
 const App = () => {
-  
   const handelRWD = () => {
     window.open(
       "https://www.freecodecamp.org/certification/Khamais-Maaroufi/responsive-web-design"
@@ -17,8 +16,8 @@ const App = () => {
     window.open(
       "https://www.freecodecamp.org/certification/Khamais-Maaroufi/front-end-development-libraries"
     );
-  }
-  
+  };
+
   useEffect(() => {
     let element = document.querySelector(".Portfolio-content-styles");
     element.addEventListener("scroll", function () {
@@ -26,6 +25,7 @@ const App = () => {
       scroll.classList.toggle("active", element.scrollTop > 300);
     });
   });
+
   const ToTop = () => {
     let element = document.querySelector(".Portfolio-content-styles");
     element.scrollTo(0, 0);
@@ -151,7 +151,11 @@ const App = () => {
               <h3>Web Developer (end of study internship)</h3>
               <h4>
                 Horizon Data, Tunis
-                <a href="https://www.horizon-data.tn" style={{fontSize:"1.2vw"}} target="_blank">
+                <a
+                  href="https://www.horizon-data.tn"
+                  style={{ fontSize: "1.2vw" }}
+                  target="_blank"
+                >
                   (Official Website)
                 </a>{" "}
               </h4>
@@ -216,7 +220,8 @@ const App = () => {
                     alt="valid"
                   ></img>
                 </i>
-                I can design and build custom websites for clients using my skills in HTML, CSS, and JavaScript.
+                I can design and build custom websites for clients using my
+                skills in HTML, CSS, and JavaScript.
               </li>
 
               <li>
@@ -226,7 +231,8 @@ const App = () => {
                     alt="valid"
                   ></img>
                 </i>
-                I can develop custom web applications for clients using my experience with frameworks such as React.
+                I can develop custom web applications for clients using my
+                experience with frameworks such as React.
               </li>
 
               <li>
@@ -237,7 +243,8 @@ const App = () => {
                     alt="valid"
                   ></img>
                 </i>
-                I can provide ongoing support to clients by maintaining and updating their existing websites.
+                I can provide ongoing support to clients by maintaining and
+                updating their existing websites.
               </li>
 
               <li>
@@ -247,7 +254,8 @@ const App = () => {
                     alt="valid"
                   ></img>
                 </i>
-                I can offer training and consulting services to help clients learn more about web dev technologies and best practices.
+                I can offer training and consulting services to help clients
+                learn more about web dev technologies and best practices.
               </li>
             </ul>
           </div>
@@ -306,19 +314,59 @@ const App = () => {
         <section id="CONTACT" className="content-sections">
           <h2>CONTACT</h2>
           <address>
- <div className="add-info"> <a href="mailto:info@example.com">khamais.sil@gmail.com</a></div>
- <div className="add-info"> <a href="tel:1234567890">+216-25883997</a></div>
- <div className="add-info"><a href="https://maps.google.com/?q=123+Main+St">Tunis, Tunisia</a></div> 
+            <div>
+              <img src="https://cdn-icons-png.flaticon.com/512/9062/9062564.png"></img>
+              <h4>Tunis, Tunisia</h4>
+            </div>
+            <div>
+              <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></img>
+              <h4>khamais.sil@gmail.com</h4>
+            </div>
+            <div>
+              <img src="https://cdn-icons-png.flaticon.com/512/1180/1180355.png"></img>
+              <h4>+216-25 883 997</h4>
+            </div>
           </address>
+          <div className="social-media-links" id="links-to-my-social-media">
+            <a
+              className="icon-for-media"
+              href="https://www.facebook.com/kahkhiu/"
+              target="_blank"
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="my-facebook"
+              />
+            </a>
+            <a
+              className="icon-for-media"
+              href="https://github.com/khamais-maaroufi"
+              target="_blank"
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/2175/2175377.png"
+                alt="my-github"
+              />
+            </a>
+            <a
+              className="icon-for-media"
+              href="https://www.linkedin.com/in/khemais-maaroufi/"
+              target="_blank"
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="my-linkedin"
+              />
+            </a>
+          </div>
         </section>
         <div className="topbtnk" onClick={ToTop}>
-      <img
-        src="https://cdn-icons-png.flaticon.com/128/6469/6469473.png"
-        alt="scrollTop"
-      ></img>
-    </div>
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/6469/6469473.png"
+            alt="scrollTop"
+          ></img>
+        </div>
       </section>
-      
     </main>
   );
 };
