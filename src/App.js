@@ -315,15 +315,15 @@ const App = () => {
           <h2>CONTACT</h2>
           <address>
             <div>
-              <img src="https://cdn-icons-png.flaticon.com/512/9062/9062564.png"></img>
+              <img src="https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/location-icon.png?alt=media&token=e555751c-96c5-4b89-b258-1fbc465baa3c"></img>
               <h4>Tunis, Tunisia</h4>
             </div>
             <div>
-              <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"></img>
+              <img src="https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/email-icon.png?alt=media&token=b3270443-36ff-4b07-aae8-8153876f4d84"></img>
               <h4>khamais.sil@gmail.com</h4>
             </div>
             <div>
-              <img src="https://cdn-icons-png.flaticon.com/512/1180/1180355.png"></img>
+              <img src="https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/phone-symbol-golden.png?alt=media&token=c88b590b-2c16-4bf2-bc67-c63ed2334657"></img>
               <h4>+216-25 883 997</h4>
             </div>
           </address>
