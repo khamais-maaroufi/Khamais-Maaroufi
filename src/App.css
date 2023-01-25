@@ -9,6 +9,31 @@ h4,
 span {
   font-size: 1.5vw;
 }
+#hero-section {
+  position: relative;
+}
+.langauges {
+  width: fit-content;
+  position: absolute;
+  top: 0;
+  right: 1.2vw;
+  border: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  /*hide the native button*/
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+select::-ms-expand {
+  display: none;
+}
+/*----*/
+.langauges:focus {
+  outline: none;
+}
+
 figure {
   width: 60%;
   aspect-ratio: 1/1;
