@@ -66,6 +66,10 @@ const App = () => {
       </section>
       <section className="Portfolio-content-styles" id="Portfolio-content">
         <section id="hero-section">
+          <select name="language" id="language" className="langauges">
+            <option value="english">English</option>
+            <option value="francais">francais</option>
+          </select>
           <div className="typewriter">
             <h1 id="my-name-animated">Maaroufi Khamais</h1>
           </div>
@@ -141,11 +145,35 @@ const App = () => {
         </section>
         <section id="EXPERIENCE" className="content-sections">
           <h2>EXPERIENCE</h2>
+          <div
+            className="container-insub-section"
+            style={{ marginBottom: "2vw" }}
+          >
+            <img
+              className="university-logo"
+              src="https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/Fenix-Future-Dev.jpg?alt=media&token=08e31a24-b533-41bd-b78f-a68cf4de9334"
+              alt="Fenix-logo"
+            />
+            <div>
+              <h3>Web Developer (Intern)</h3>
+              <h4>
+                Fenix Future Dev, Tunis
+                <a
+                  href="https://www.linkedin.com/company/fenix-future-dev/?trk=similar-pages"
+                  style={{ fontSize: "1.2vw" }}
+                  target="_blank"
+                >
+                  (LinkedIn)
+                </a>{" "}
+              </h4>
+              <span>August 2022 - October 2022</span>
+            </div>
+          </div>
           <div className="container-insub-section">
             <img
               className="university-logo"
-              src="https://www.horizon-data.tn/wp-content/uploads/2021/02/imageedit_1_8941922998.png"
-              alt="my-university-logo"
+              src="https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/Horizon%20Data.png?alt=media&token=2dac1e6c-d70c-4d0e-a2d1-cd2f4331872b"
+              alt="horizon-data-logo"
             />
             <div>
               <h3>Web Developer (end of study internship)</h3>
