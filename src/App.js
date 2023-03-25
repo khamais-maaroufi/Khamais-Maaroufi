@@ -24,8 +24,9 @@ const App = () => {
       var scroll = document.querySelector(".topbtnk");
       scroll.classList.toggle("active", element.scrollTop > 300);
     });
+    document.getElementById("music").play();
   });
-
+  // useEffect(() => {});
   const ToTop = () => {
     let element = document.querySelector(".Portfolio-content-styles");
     element.scrollTo(0, 0);
@@ -70,6 +71,13 @@ const App = () => {
             <option value="english">English</option>
             <option value="francais">francais</option>
           </select>
+          <audio id="music" controls>
+            <source
+              src="https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/Shkoon_Rima_feat._El_Far3i_Official_Video__LM6H7hmTZK0_140.mp3?alt=media&token=2944a081-2923-4ee7-87c3-21d2b299e8cd"
+              type="audio/mp3"
+            />
+            Your browser does not support the audio element.
+          </audio>
           <div className="typewriter">
             <h1 id="my-name-animated">Maaroufi Khamais</h1>
           </div>

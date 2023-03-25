@@ -26,6 +26,11 @@ span {
   -moz-appearance: none;
   appearance: none;
 }
+#music {
+  position: fixed;
+  top: 0;
+  left: 20vw;
+}
 select::-ms-expand {
   display: none;
 }
