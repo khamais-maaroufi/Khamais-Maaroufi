@@ -465,6 +465,15 @@ address div {
   visibility: visible;
   opacity: 1;
 }
+
+@media (max-width: 1060px) {
+  #music {
+    position: fixed;
+    width: 30vw;
+    top: 11vw;
+    left: 2vw;
+  }
+}
 /* The typing effect */
 @keyframes typing {
   from {
