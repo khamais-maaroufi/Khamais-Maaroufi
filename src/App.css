@@ -144,13 +144,14 @@ nav ul > li:active {
   align-items: center;
   width: 20vw;
   background-image: linear-gradient(
-    to left bottom,
-    #ffffff,
-    #b9b9b9,
-    #777777,
-    #3b3b3b,
-    #000000
-  );
+      to left bottom,
+      #ffffff00,
+      #b9b9b93b,
+      #777777c0,
+      #3b3b3bbd,
+      #000000d3
+    ),
+    url("https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/david-one.jpeg?alt=media&token=9fdd0c0b-8893-4f92-98e5-6339c62eb386");
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-animation: swing-in-left-fwd 1s
@@ -162,6 +163,17 @@ nav ul > li:active {
   overflow: auto;
   scroll-behavior: smooth;
   max-height: 100vh;
+  background-image: radial-gradient(
+      circle,
+      #ffffffb4,
+      #ffffffad,
+      #ffffffc5,
+      #ffffff,
+      #ffffff
+    ),
+    url("https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/david-two.jpeg?alt=media&token=7e20b848-32bd-481b-bb10-b307192eb6b6");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 nav {
   width: 100%;
