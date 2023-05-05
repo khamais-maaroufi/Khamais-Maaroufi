@@ -24,7 +24,6 @@ const App = () => {
       var scroll = document.querySelector(".topbtnk");
       scroll.classList.toggle("active", element.scrollTop > 300);
     });
-    document.getElementById("music").play();
   });
   // useEffect(() => {});
   const ToTop = () => {
