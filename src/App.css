@@ -151,13 +151,13 @@ nav ul > li:active {
   width: 20vw;
   background-image: linear-gradient(
       to left bottom,
-      #ffffff00,
-      #b9b9b93b,
+      #ffffffd7,
+      #ffffffd3,
       #777777c0,
       #3b3b3bbd,
       #000000d3
     ),
-    url("https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/david-one.jpeg?alt=media&token=9fdd0c0b-8893-4f92-98e5-6339c62eb386");
+    url("https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/ancient-pillar.jpg?alt=media&token=bfbf95a2-505b-4fad-9006-ee0619923606");
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-animation: swing-in-left-fwd 1s
