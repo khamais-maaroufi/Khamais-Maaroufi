@@ -124,14 +124,16 @@ const App = () => {
           <p>
             Welcome to my portfolio! I am a highly motivated and experienced
             software developer with a strong foundation in web development
-            technologies such as HTML, CSS, and JavaScript. I have practical
-            experience working on full stack web projects, including experience
-            with the React framework. I also have experience with Git and GitHub
-            and have a strong understanding of best practices for working in a
-            team and maintaining a codebase. I am a passionate learner and am
-            dedicated to producing high-quality work. I am excited to continue
-            growing as a developer and to contribute my skills and experience to
-            new and challenging projects.
+            technologies such as HTML, CSS, and JavaScript.
+            <br /> I have practical experience working on full stack web
+            projects, including experience with the React framework.
+            <br /> I also have experience with Git and GitHub and have a strong
+            understanding of best practices for working in a team and
+            maintaining a codebase.
+            <br /> I am a passionate learner and am dedicated to producing
+            high-quality work.
+            <br /> I am excited to continue growing as a developer and to
+            contribute my skills and experience to new and challenging projects.
           </p>
         </section>
         <section id="EDUCATION" className="content-sections">
