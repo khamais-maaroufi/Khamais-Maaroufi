@@ -40,7 +40,6 @@ const Contact = () => {
               type="text"
               tabIndex="1"
               required
-              autoFocus
             />
           </fieldset>
           <fieldset>
