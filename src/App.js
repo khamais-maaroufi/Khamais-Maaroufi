@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-
+import Contact from "./Contact";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const App = () => {
   const handelRWD = () => {
     window.open(
@@ -373,20 +375,24 @@ const App = () => {
         </section>
         <section id="CONTACT" className="content-sections">
           <h2>CONTACT</h2>
-          <address>
-            <div>
-              <img src="https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/location-icon-removebg-preview.png?alt=media&token=9708b4e6-8cf2-483e-b12e-67d6e943325d"></img>
-              <h4>Tunis, Tunisia</h4>
-            </div>
-            <div>
-              <img src="https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/email-icon-removebg-preview.png?alt=media&token=ab4df3a4-0f1b-406d-82f3-702124db4fca"></img>
-              <h4>khamais.sil@gmail.com</h4>
-            </div>
-            <div>
-              <img src="https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/phone-symbol-golden-removebg-preview.png?alt=media&token=b6e0eadd-9666-4a87-b645-36d9c71a44d1"></img>
-              <h4>+216-25 883 997</h4>
-            </div>
-          </address>
+          <div className="contactainer">
+            <address>
+              <div>
+                <img src="https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/location-icon-removebg-preview.png?alt=media&token=9708b4e6-8cf2-483e-b12e-67d6e943325d"></img>
+                <h4>Tunis, Tunisia</h4>
+              </div>
+              <div>
+                <img src="https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/email-icon-removebg-preview.png?alt=media&token=ab4df3a4-0f1b-406d-82f3-702124db4fca"></img>
+                <h4>khamais.sil@gmail.com</h4>
+              </div>
+              <div>
+                <img src="https://firebasestorage.googleapis.com/v0/b/my-picture-829e6.appspot.com/o/phone-symbol-golden-removebg-preview.png?alt=media&token=b6e0eadd-9666-4a87-b645-36d9c71a44d1"></img>
+                <h4>+216-25 883 997</h4>
+              </div>
+            </address>
+            <Contact />
+          </div>
+
           <div className="social-media-links" id="links-to-my-social-media">
             <a
               className="icon-for-media"
@@ -427,6 +433,7 @@ const App = () => {
           ></img>
         </div>
       </section>
+      <ToastContainer />
     </main>
   );
 };

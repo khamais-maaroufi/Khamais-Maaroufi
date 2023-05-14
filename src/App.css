@@ -467,6 +467,23 @@ address div {
   opacity: 1;
 }
 
+address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 75vh;
+}
+address img {
+  width: 50px;
+  aspect-ratio: 1/1;
+}
+.contactainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
 @media (max-width: 1060px) {
   #music {
     position: fixed;
