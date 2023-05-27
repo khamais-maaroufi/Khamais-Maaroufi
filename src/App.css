@@ -47,8 +47,8 @@ figure {
   background-image: linear-gradient(
     to left bottom,
     #ffffff,
-    #b27937,
-    #8e5335,
+    #c49d1d,
+    #b39a0e,
     #62352e09,
     #341d1fec,
     #000000fa
@@ -151,8 +151,6 @@ nav ul > li:active {
   width: 20vw;
   background-image: linear-gradient(
       to left bottom,
-      #ffffffd7,
-      #ffffffb7,
       #777777c0,
       #3b3b3bbd,
       #000000d3
